@@ -1,11 +1,10 @@
 // const API_KEY =  // Get yours for free at https://judge0.com/ce or https://judge0.com/extra-ce
 
 var language_to_id = {
-  Bash: 46,
   C: 50,
+  Java: 62,
   "C#": 51,
   "C++": 54,
-  Java: 62,
   Python: 71,
   Ruby: 72,
 };
@@ -68,7 +67,7 @@ function check(token) {
 
 function run() {
   $("#run-btn").prop("disabled", true);
-  $("#output").val("⚙️ Creating submission...");
+  $("#output").val("⚙️ Creating submission......");
 
   let encodedExpectedOutput = null;
   //   let encodedExpectedOutput = encode($("#expected-output").val());
